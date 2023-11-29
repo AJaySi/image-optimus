@@ -13,11 +13,14 @@ A versatile Python tool for effective image compression and conversion. It inclu
 
 ## Installation
 
-To get started, ensure Python is installed on your system. The tool relies on several Python libraries including Pillow, loguru, tqdm, and tinify, which can be installed using pip:
+Before using this tool, ensure you have Python installed on your system. You can then install the necessary dependencies using the following command:
 
 ```bash
-pip install Pillow loguru tqdm tinify
+pip install -r requirements.txt
 ```
+This command will install all the required packages listed in the requirements.txt file, namely Pillow (for image processing), loguru (for logging), tqdm (for progress bars), and tinify (for Tinyfy API support).
+To get started, ensure Python is installed on your system. The tool relies on several Python libraries including Pillow, loguru, tqdm, and tinify, which can be installed using pip:
+
 Note: You'll need an API key from Tinyfy for the Tinyfy API integration. Set this key as an environment variable TINIFY_API_KEY.
 
 ## Usage
