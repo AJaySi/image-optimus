@@ -17,8 +17,8 @@ To get started, ensure Python is installed on your system. The tool relies on se
 
 ```bash
 pip install Pillow loguru tqdm tinify
-
-**Note**: You'll need an API key from Tinyfy for the Tinyfy API integration. Set this key as an environment variable TINIFY_API_KEY.
+```
+Note: You'll need an API key from Tinyfy for the Tinyfy API integration. Set this key as an environment variable TINIFY_API_KEY.
 
 ## Usage
 
@@ -28,16 +28,16 @@ Compress all images within a specified directory, adjusting quality, size, and E
 
 ```python
 compress_images_in_directory('/path/to/your/images', quality=85, resize=(800, 600), preserve_exif=True)
-
+```
 ### Compress Images Using Tinyfy API
 
 Utilize the Tinyfy API for advanced compression on images within a directory:
 ```python
 compress_images_in_directory_tinyfy('/path/to/your/images')
-
+```
 ### Convert Images to WebP
 
 Convert all images in a directory to the WebP format:
 ```python
 convert_directory_to_webp('/path/to/your/images')
-
+```
